@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Montserrat:wght@800&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* this is navbar css */
+.navbar-section {
+    padding: 0px;
+}
+
+.navbar-logos {
+    display: flex;
+    width: 50vw;
+}
+
+.Mangalaytan-logo {
+    width: 25%;
+    padding-right: 10px;
+    height: 31%;
+}
+
+.PerfectElearning-logo {
+    display: flex;
+}
+
+.PerfectElearning-logo img {
+    width: 15%;
+    height: 86%;
+}
+
+
+.PerfectElearning-logo div h2 {
+    font-family: 'Fredoka', sans-serif;
+    margin-bottom: 0px;
+
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right button {
+    height: 3rem;
+}
+
+.navbarBtn1 {
+    width: 50%;
+    background: linear-gradient(120deg, #2524A9 0%, #030F30 100%);
+
+}
+
+.navbarBtn1 img {
+    width: 10%;
+}
+
+.navbarBtn2 {
+    border-radius: 30px;
+    background: linear-gradient(to right, #5540cd, #493fc7, #3c3ec0, #2e3dba, #1e3bb3);
+
+}
+
+.navbarBtn2 img {
+    width: 22%;
+}
+
+.navbar-right .btn-danger {
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #FFFFFF 5%, #E6162C 35%);
+
+}
+
+
+
+/* this is banner css */
+.banner {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.banner-content {
+    background-image: url(media/top\ banner.png);
+    width: 100%;
+    height: 100%;
+}
+
+.banner-texts {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding: 44px 110px;
+}
+
+.bannerHead {
+    font-size: 3.5rem;
+
+}
+
+.banner-texts .banner-texts-line2 {
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.banner-logos img {
+    width: 15%;
+    margin-top: 10vh;
+}
+
+.banner-logos-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-logos-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-banner-contant .card {
+    border-radius: 20px;
+}
+
+.bottom-banner {
+
+    position: relative;
+    top: 100px;
+
+}
+
+/* this is about section css */
+
+.about-container {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #3C78D8;
+}
+
+.about-container p {
+    line-height: 34px;
+    font-size: 2rem;
+}
+
+
+
+/* this is achivement css */
+
+.achivement {
+    background-color: #E6F2FF;
+}
+
+.fw-bolder {
+    margin: 60px 80px;
+    padding-top: 100px;
+    font-size: 50px;
+
+}
+
+.achivement1-heading {
+    font-size: 80px;
+}
+
+.achivement1 h1 {
+    font-size: 50px;
+}
+
+
+
+.achivement1 p {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+
+.achivement1 {
+    width: auto;
+    height: auto;
+    margin: 100px 110px;
+    background-color: #ffffff;
+    text-align: start;
+    padding: 32px 0px 32px 21px;
+    border-radius: 45px;
+}
+
+.achivement1 img {
+    padding-right: 1px;
+    padding-bottom: 10px;
+}
+
+
+
+/* work with section */
+.recognition {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.recognition i {
+    padding: 28px 30px 0px 0px;
+}
+.recognition div {
+    font-size: 2rem;
+}
+
+.workwith {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+/* this is tech colloge css */
+
+.tech-college{
+    background-color: #021028;
+}
+.tech-college-head{
+    text-align: center;
+    color: white;
+    padding: 80px 0px;
+}
+
+.tech-college-logos{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 6rem;
+    padding: 1rem 7rem;
+    border-radius: 40px;
+    background: linear-gradient(120deg, #10127C 48%, #030F30 100%);
+}
+.tech-college-logos-2{
+    width: 35%;
+    position: absolute;
+}
+.tech-college-logos-2 img{
+    width: 35%;
+    position: relative;
+    top: -28px;
+    left: 361px;
+}
+
+.tech-college-providing1{
+    margin: 124px 0px;
+    padding-bottom: 84px;
+}
+
+.card-body{
+    background-color: #021028;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+}
+
+
+
+
+/* this is program css */
+
+
+.programe-courses {
+    display: flex;
+    justify-content: space-around;
+}
+.programe-courses .card {
+    border: 0px solid ;
+}
